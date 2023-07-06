@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101, 112, 108);
+}
+.container-fluid{
+    /* background-color: rgb(228, 238, 238); */
+    /* height: 100%;
+    width: 100%; */
+    margin-top: 15rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+span{
+    font-size: 5rem;
+}
+.clock{
+    height: 275px;
+    width: 700px;
+    background-color: rgb(195, 195, 209);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    /* background-color: beige; */
+    border-radius: 2%;
+    
+}
+
+#hours::after,
+    #minutes::after {
+         content: ":"; 
+        font-size: 5.5rem; /* Adjust the font size as per your requirement */
+    }
